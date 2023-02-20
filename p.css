@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e3f2fd;
+
+}
+.input-field
+{
+    position: relative;
+    height: 50px;
+    width: 280px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.input-field input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+input::placeholder{
+    color: #b4b4b4;
+} 
+.input-field .icomboton{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 22px;
+    color: #b4b4b4;
+}
